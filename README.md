@@ -37,9 +37,11 @@ It is different from facial detection, not every detected face has detected emot
 
 - ⁠Image embedding vector —> vetor que caracteriza a imagem (aqueles clusters que o stor fez print na aula penso eu). Identificar planos diferentes ao longo do debate (porque isso à priori diria que é o que vai mudar mais o embedding), tempo de cada um.
 
----> COmparar notas de todos os canais televisivos e ver quais as que se aproximaram mais aos nossos scores
+--> Comparar notas de todos os canais televisivos e ver quais as que se aproximaram mais aos nossos scores
 
 --> Englobar um conjunto de metricas para darmos um score a cada interveniente nos combates..
+
+--> Ver a evolução dos candidatos ao longo de cada debate
 
 
 ## Divisão do trabalho
