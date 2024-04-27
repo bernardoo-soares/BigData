@@ -43,6 +43,8 @@ It is different from facial detection, not every detected face has detected emot
 
 --> Ver a evolução dos candidatos ao longo de cada debate
 
+--> Ver qual foi o debate mais "educado" através do uso do text... Quais é que foram os debates em que eles se interromperam menos
+
 
 ## Divisão do trabalho
 
