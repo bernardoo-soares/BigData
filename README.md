@@ -45,6 +45,8 @@ It is different from facial detection, not every detected face has detected emot
 
 --> Ver qual foi o debate mais "educado" através do uso do text... Quais é que foram os debates em que eles se interromperam menos
 
+--> Depois de Paiva analisar emoções --> relacionar com o tempo e discretizar o debate por fases... quem teve mais apreensivo ao início etc
+
 
 ## Divisão do trabalho
 
