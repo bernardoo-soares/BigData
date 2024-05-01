@@ -1,42 +1,56 @@
-# Object Detection Dataset Analysis
+# EDA of Detected Human Poses in Election Debates
 
-This document provides an overview of key metrics and analyses for analyzing an object detection dataset.
+This repository contains code and documentation for the exploratory data analysis (EDA) of detected human poses during the election debates in Portugal.
 
-## Metrics and Analyses
+## Overview
 
-### 1. Object Density
+In the weeks leading up to the election day in March 2024, eight major political parties participated in one-on-one debates broadcasted on three Portuguese TV channels. For each frame of these debates, information was extracted using various detectors, including:
 
-Calculate the density of objects in each frame or region of interest to identify areas with high or low object density.
+- Detected objects
+- Detected human poses
+- Detected faces and emotions
+- Image embedding vectors
 
-### 2. Object Size Distribution
+This README specifically focuses on the EDA related to the detected human poses.
 
-Analyze the distribution of object sizes (width and height) across the dataset to understand the range and variability of object sizes.
+## Dataset Description
 
-### 3. Object Class Distribution
+The dataset consists of:
 
-Examine the distribution of object classes across frames or over time to identify the most frequent classes and prioritize specific classes for further analysis.
+- 3D coordinates of 33 keypoints for each detected human pose
+- Probability of each pose being visible and present
+- Other metadata related to the poses
 
-### 4. Detection Confidence Distribution
+## EDA Tasks
 
-Investigate the distribution of detection confidence scores to assess the overall confidence level of the object detector.
+The following exploratory data analysis tasks were performed:
 
-### 5. Temporal Analysis
+1. **Distribution of Pose Confidence**: Summary statistics and visualization of the probability of poses being visible and present.
 
-Explore temporal patterns in object detection, such as changes in object frequency, size, or class distribution over time.
+2. **Pose Keypoints Analysis**: Summary statistics and visualization of the distribution of individual keypoints across all detected poses.
 
-### 6. Spatial Analysis
+3. **Pose Variability**: Measurement and visualization of pose variability or consistency across frames.
 
-Perform spatial analysis to identify spatial patterns or clusters of objects within frames or across multiple frames.
+4. **Pose Relationships**: Exploration of relationships between different keypoints within a pose.
 
-### 7. Object Tracking
+5. **Pose Clustering**: Clustering analysis to group similar poses together based on keypoint positions.
 
-Implement object tracking algorithms to track objects across frames and analyze their trajectories, velocities, or interactions over time.
+6. **Pose Dynamics**: Investigation of pose dynamics over time, including velocity and acceleration.
 
-### 8. Object Co-occurrence
+7. **Pose Comparison Across Parties/Debates**: Comparison of poses detected during debates for different parties or across different debate sessions.
 
-Analyze the co-occurrence patterns of different object classes within frames or regions of interest.
+## Files
 
-## Additional Notes
+- `pose_eda.ipynb`: Jupyter notebook containing the code for the EDA tasks.
+- `data.pickle`: Pickle file containing the raw data extracted from the debate videos.
 
-- Include any additional insights, observations, or considerations here.
+## Requirements
+
+- Python 3.x
+- Jupyter Notebook
+- pandas, numpy, matplotlib, seaborn (Python libraries)
+
+## Usage
+
+1. Clone the repository:
 
