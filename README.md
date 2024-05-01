@@ -3,6 +3,19 @@ Academic year 23/24 - IST
 
 Authors: Mikayl Caeirovski, Burph Suarez, John White-Castle
 
+
+## Current TO-DO List (always changing)
+
+- Esperar pelo mail de resposta do stor
+
+- Cada um completar gráficos que faltam sobre a sua parte e começar a relacionar com outros dados (fase inicial)
+
+- Filtrar e aperfeiçoar gráficos a incluir na apresentação
+
+- No fim de semana fazer a apresentação
+
+
+
 ## Data collected from video processing
 0. Filename (redudant)
 
@@ -21,31 +34,34 @@ Characterizing the entire frame. The vector is obtained from a convolutional neu
 5. Text in image
 Maybe we have to clear the data, text recognignition has many flaws
 
-6. FER (Facial emotion recognition)
-It is different from facial detection, not every detected face has detected emotion because it's used different detecting tools. This one also does not identify key points, only a bounding box.
 
 
-## Ideiazinhas de dados a retirar dos Big Dados, para fazer gráficos e apresentar na mid-term review
+## Midterm review: ideas
 
-- detected objects —> quantas deteções de cada objeto, relacionar aparições de cada (eg. aparece a água garrafa sempre que aparece ventura), lista de objetos mais estranhos (histograma) em todos os videos, 
+1. Detected objects 
+—> quantas deteções de cada objeto, relacionar aparições de cada (eg. aparece a água garrafa sempre que aparece ventura), lista de objetos mais estranhos (histograma) em todos os videos, 
 
-- ⁠Detected human poses —> identifica os key points todos? estao fora da imagem? estar presente e visivel normalmente coincide? temos de relacionar com outros dados, sozinhos dizem pouco...
+2. ⁠Detected human poses
+ —> identifica os key points todos? estao fora da imagem? estar presente e visivel normalmente coincide? temos de relacionar com outros dados, sozinhos dizem pouco...
 
-- ⁠Detected Faces + FER —> Quem é que apareceu mais tempo? Que expressões é que fizeram ao longo do debate? Qual a emoção mais comum em cada? Qual as emoções mais associadas em pares (eg. medo<-->raiva)? Contar o número de expressões que fizeram e daí verificar quem é que esteve mais chateado, apreensivo, contente. Associar pares de emoções a eventuais rivalidades de partidos. Ideia do caeiro: começamos com um espetro feito por nos dos partidos, mas depois com a análise dos pares de emoções elaboramos um espetro obtido com essa análise. Histograma...
+3. FER 
+—> Quem é que apareceu mais tempo? Que expressões é que fizeram ao longo do debate? Qual a emoção mais comum em cada? Qual as emoções mais associadas em pares (eg. medo<-->raiva)? Contar o número de expressões que fizeram e daí verificar quem é que esteve mais chateado, apreensivo, contente. Associar pares de emoções a eventuais rivalidades de partidos. Ideia do caeiro: começamos com um espetro feito por nos dos partidos, mas depois com a análise dos pares de emoções elaboramos um espetro obtido com essa análise. Histograma...
 
-- ⁠Text —> todo o texto que aparece em cada imagem da esquerda para a direita. Identificar o nome dos participantes, quanto tempo falou cada um no final do debate. Relacionar vários videos para ver tempo medio de debate por exemplo. Dividir o debate de 5 em 5 minutos por exemplo e ver como o debate se desenrolou (ex: Montenegro esteve mais apreensivo no inicio mas soltou-se para o fim...). 
+4. ⁠Text 
+—> Identificar o nome dos participantes, quanto tempo falou cada um no final do debate. Relacionar vários videos para ver tempo medio de debate por exemplo. Dividir o debate de 5 em 5 minutos por exemplo e ver como o debate se desenrolou (ex: Montenegro esteve mais apreensivo no inicio mas soltou-se para o fim...). Ver qual foi o debate mais "educado" através do uso do text... Quais é que foram os debates em que eles se interromperam menos
 
-- ⁠Image embedding vector —> vetor que caracteriza a imagem (aqueles clusters que o stor fez print na aula penso eu). Identificar planos diferentes ao longo do debate (porque isso à priori diria que é o que vai mudar mais o embedding), tempo de cada um.
+5. ⁠Image embedding vector —> vetor que caracteriza a imagem (aqueles clusters que o stor fez print na aula penso eu). Identificar planos diferentes ao longo do debate (porque isso à priori diria que é o que vai mudar mais o embedding), tempo de cada um.
 
+
+## Task 2 and 3: ideas
 --> Comparar notas de todos os canais televisivos e ver quais as que se aproximaram mais aos nossos scores
 
 --> Englobar um conjunto de metricas para darmos um score a cada interveniente nos combates..
 
 --> Ver a evolução dos candidatos ao longo de cada debate
 
---> Ver qual foi o debate mais "educado" através do uso do text... Quais é que foram os debates em que eles se interromperam menos
-
 --> Depois de Paiva analisar emoções --> relacionar com o tempo e discretizar o debate por fases... quem teve mais apreensivo ao início etc
+
 
 
 ## Divisão do trabalho
