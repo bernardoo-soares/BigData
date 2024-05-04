@@ -6,10 +6,6 @@ Authors: Mikayl Caeirovski, Burph Suarez, John White-Castle
 
 ## Current TO-DO List (always changing)
 
-- Esperar pelo mail de resposta do stor
-
-- Cada um completar gráficos que faltam sobre a sua parte e começar a relacionar com outros dados (fase inicial)
-
 - Filtrar e aperfeiçoar gráficos a incluir na apresentação
 
 - No fim de semana fazer a apresentação
