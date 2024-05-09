@@ -4,15 +4,39 @@ Academic year 23/24 - IST
 Authors: Mikayl Caeirovski, Burph Suarez, John White-Castle
 
 
-## Current TO-DO List (always changing)
+# WORKPLAN
 
-- Filtrar e aperfeiçoar gráficos a incluir na apresentação
+## TASK 2: Single video analysis
 
-- No fim de semana fazer a apresentação
+1. “Segment” the video according to the viewpoint/composition of each frame. Using clustering/PCA for image embedding vector
+
+2. Assign a label (“person 1”, “person 2”, etc) to each detected face in the video. Using clustering/PCA for facial embedding vector
+
+3. Re-do some incomplete Task 1 graphs. For example, in AD-Chega (done by Paivoski) emotion detection can only be assigned to a given person in frames where both politicians appear and because we know which one is on the left/right. Using FEV will allow to efficiently identify the peron in question. This re-doing applies mostly to graphs that involve FER (done by Paivoski), I believe...
+
+
+##  Task 3: Multiple Video Analysis 
+
+0. The main goal is to find other interesting facts hidden in the data. Here we can use our bright minds and think out of the box. Here are some ideas.
+
+1. Use the people labelling and try to extract information from the poses data. It will be hard, but "vai-nos diferenciar do resto da chavalada". For instance, can a person pose say something about his/her emotion?
+
+2. Try to assign scores to debates (maybe based on emotions or poses?). Compare them to TV channels scores.
+
+3. Is there a correlaction between most present emotions on a given debate and the political differences between the speakers (eg. Ventura + Mortágua = Anger?)
+
+4. See the evolution of each politician in each individual debate and throughout the whole campaign.
+
+
+# Current doubts
+
+- O código final deve ser submetido sob a forma de um único ficheiro .ipynb? Deve incluir os gráficos gerados?
+
+- O vídeo-relatório final deve conter acima de tudo gráficos, certo? Pode/deve ter áudio explicativo? 
 
 
 
-## Data collected from video processing
+# Data collected from video processing
 0. Filename (redudant)
 
 1. Detected Objects 
@@ -47,28 +71,6 @@ Maybe we have to clear the data, text recognignition has many flaws
 —> Identificar o nome dos participantes, quanto tempo falou cada um no final do debate. Relacionar vários videos para ver tempo medio de debate por exemplo. Dividir o debate de 5 em 5 minutos por exemplo e ver como o debate se desenrolou (ex: Montenegro esteve mais apreensivo no inicio mas soltou-se para o fim...). Ver qual foi o debate mais "educado" através do uso do text... Quais é que foram os debates em que eles se interromperam menos
 
 5. ⁠Image embedding vector —> vetor que caracteriza a imagem (aqueles clusters que o stor fez print na aula penso eu). Identificar planos diferentes ao longo do debate (porque isso à priori diria que é o que vai mudar mais o embedding), tempo de cada um.
-
-
-## Task 2 and 3: ideas
---> Comparar notas de todos os canais televisivos e ver quais as que se aproximaram mais aos nossos scores
-
---> Englobar um conjunto de metricas para darmos um score a cada interveniente nos combates..
-
---> Ver a evolução dos candidatos ao longo de cada debate
-
---> Depois de Paiva analisar emoções --> relacionar com o tempo e discretizar o debate por fases... quem teve mais apreensivo ao início etc
-
-
-
-## Divisão do trabalho
-
-- Detected objetcs + poses --> Mikayl Caeirovski
-
-- Detected faces + FER --> John White-Castle
-
-- Text + image embedding vector --> Burph Suárez
-
-ACIMA DE TUDO RELACIONAR DADOS ENTRE SI! FAZER GRÁFICOS, ANOTAR PENSAMENTOS
 
 
 
