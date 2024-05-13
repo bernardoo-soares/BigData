@@ -25,7 +25,7 @@ Authors: Mikayl Caeirovski, Burph Suarez, John White-Castle
 
 3. See the evolution of each politician in each individual debate and throughout the whole campaign. Segment each debate in 5 minute intervals. --> <u>__BERNARDO__</u>
 
-- Ver os debates mais educados (menos interpolações) e relacionar com espetros políticos --> <u>__BERNARDO__</u>
+4. Ver os debates mais educados (menos interpolações) e relacionar com espetros políticos --> <u>__BERNARDO__</u>
 
 
 
