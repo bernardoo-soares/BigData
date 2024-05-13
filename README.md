@@ -8,24 +8,43 @@ Authors: Mikayl Caeirovski, Burph Suarez, John White-Castle
 
 ## TASK 2: Single video analysis
 
-1. “Segment” the video according to the viewpoint/composition of each frame. Using clustering/PCA for image embedding vector
+1. “Segment” the video according to the viewpoint/composition of each frame. Using clustering/PCA for image embedding vector --> <u>__BERNARDO__</u>
 
-2. Assign a label (“person 1”, “person 2”, etc) to each detected face in the video. Using clustering/PCA for facial embedding vector
+2. Assign a label (“person 1”, “person 2”, etc) to each detected face in the video. Using clustering/PCA for facial embedding vector --> <u>__PAIVA + CAEIRO__</u>
 
-3. Re-do some incomplete Task 1 graphs. For example, in AD-Chega (done by Paivoski) emotion detection can only be assigned to a given person in frames where both politicians appear and because we know which one is on the left/right. Using FEV will allow to efficiently identify the peron in question. This re-doing applies mostly to graphs that involve FER (done by Paivoski), I believe...
+3. Re-do some incomplete Task 1 graphs. For example, in AD-Chega (done by Paivoski) emotion detection can only be assigned to a given person in frames where both politicians appear and because we know which one is on the left/right. Using FEV will allow to efficiently identify the peron in question. This re-doing applies mostly to graphs that involve FER (done by Paivoski), I believe. --> <u>__TODOS__</u>
 
 
 ##  Task 3: Multiple Video Analysis 
 
 0. The main goal is to find other interesting facts hidden in the data. Here we can use our bright minds and think out of the box. Here are some ideas.
 
-1. Use the people labelling and try to extract information from the poses data. It will be hard, but "vai-nos diferenciar do resto da chavalada". For instance, can a person pose say something about his/her emotion?
+1. Use the people labelling and try to extract information from the poses data. --> <u>__CAEIRO__</u>
 
-2. Try to assign scores to debates (maybe based on emotions or poses?). Compare them to TV channels scores.
+2. Is there a correlaction between most present emotions on a given debate and the political differences between the speakers (eg. Ventura + Mortágua = Anger?) --> <u>__PAIVA__</u>
 
-3. Is there a correlaction between most present emotions on a given debate and the political differences between the speakers (eg. Ventura + Mortágua = Anger?)
+3. See the evolution of each politician in each individual debate and throughout the whole campaign. Segment each debate in 5 minute intervals. --> <u>__BERNARDO__</u>
 
-4. See the evolution of each politician in each individual debate and throughout the whole campaign.
+
+
+## Big Extra: O que nos vai diferenciar <u>__TODOS__</u>
+
+- Gerar um score para cada debate de cada interveniente, depois somar os scores todos de cada debate e dar um score geral ao político ao longo da campanha
+
+### Analisar e correlacinar várias métricas:
+
+- Ver linguagem corporal e atribuir um score positivo a uma linguagem positiva (vontade, expressividade, confiança)
+- Melhor comportado (menos interpolações) --> score positivo 
+- Emoções! Distinguir emoções positivas e negativas e dar um score consoante isso
+- Quem aparece mais tempo em cada debate --> score positivo (protagonista)
+
+
+--> Comparar este score com os de cada canal televisivo e ver qual o canal que mais se aproxima ao nosso score para cada debate e cada candidato.
+
+--> Comparar o score com o resultado das eleições 
+
+
+
 
 
 # Current doubts
