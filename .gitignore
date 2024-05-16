@@ -3,7 +3,7 @@
 
 # Ignore pkl_files directory and Paiva_Graphs directory
 pkl_files/
-Paiva_Graphs/
+ad-chega/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

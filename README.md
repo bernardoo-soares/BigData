@@ -31,7 +31,6 @@ Authors: Mikayl Caeirovski, Burph Suarez, John White-Castle
 
 
 
-
 ## Big Extra: O que nos vai diferenciar <u>__TODOS__</u>
 
 - Gerar um score para cada debate de cada interveniente, depois somar os scores todos de cada debate e dar um score geral ao político ao longo da campanha
