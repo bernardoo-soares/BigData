@@ -4,7 +4,7 @@
 - Authors: Miguel Caiero, Bernardo Soares, João Castelo-Branco
 
 
-## Insctructions
+## Instructions
 
 1. Each .ipynb file should be run sequentially.
 
