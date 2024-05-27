@@ -6,14 +6,6 @@
 
 # Ignore debates folder
 debates/
-debates/ad-cdu/
-debates/ad-be/
-debates/ad-chega/
-debates/ad-il/
-debates/ad-livre/
-debates/ad-pan/
-debates/ad-ps/
-debates/be-ps/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
