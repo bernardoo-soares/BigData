@@ -1,6 +1,9 @@
 # Ignore pickled files
 *.pkl
 
+# Ignore jpeg
+*.jpeg
+
 # Ignore debates folder
 debates/
 
