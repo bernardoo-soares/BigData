@@ -1,11 +1,6 @@
 # Ignore pickled files
 *.pkl
 
-# Ignore pkl_files directory and Paiva_Graphs directory
-pkl_files/
-ad-chega/
-be-ps/
-
 # Ignore debates folder
 debates/
 
